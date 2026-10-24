@@ -1,0 +1,4 @@
+запуск
+docker compose up --build 
+порт
+5173

@@ -1,0 +1,27 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f6f9fc;
+  color: #333;
+}
+body { margin: 0; padding: 20px; }
+.container { max-width: 1200px; margin: 0 auto; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; border-bottom: 2px solid #ddd; padding-bottom: 20px; }
+.controls { display: flex; gap: 15px; margin-bottom: 30px; flex-wrap: wrap; }
+.search-input { padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; min-width: 250px; }
+.sort-select { padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; }
+.catalog { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; }
+.card { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); overflow: hidden; display: flex; flex-direction: column; border: 1px solid #eee; }
+.card-img { width: 100%; height: 200px; object-fit: cover; }
+.card-content { padding: 15px; flex-grow: 1; display: flex; flex-direction: column; }
+.card-title { margin: 0 0 10px 0; font-size: 1.2rem; }
+.card-desc { color: #666; font-size: 0.9rem; flex-grow: 1; margin-bottom: 15px; }
+.card-footer { display: flex; justify-content: space-between; align-items: center; }
+.price { font-weight: bold; color: #2ecc71; font-size: 1.1rem; }
+.delete-btn { background: #e74c3c; color: white; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; }
+.delete-btn:hover { background: #c0392b; }
+.form-section { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 40px; border: 1px solid #eee; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 15px; }
+.form-input { padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; }
+.submit-btn { background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-size: 1rem; }
+.submit-btn:hover { background: #2980b9; }
